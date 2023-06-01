@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form>
+    <h3>Delivery Address</h3>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="firstname" id="name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="phone">Phone</label>
+        <input type="phone" name="phone" id="phone">
+        <label for="date">Date of Birth</label>
+        <input type="date" name="birth" id="date">
+
+        <!-- <label for="fname">Gender</label> -->
+        <!-- <p>Gender</p>  -->
+        <span>Gender</span>
+        
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+         
+        <!-- <label for="hello">Country</label>
+        <select name="multiple" id="hello">
+            <option value="USA"></option>
+            <option value="India"></option>
+            <option value="China"></option>
+            <option value="Japan"></option>
+            <option value="France"></option>
+        </select> -->
+        <label for="country">Country</label>
+        <br>
+        <!-- <input type="checkbox" name="checkbox" id="occupations"> -->
+        <select name="multiple" id="Country">
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Pakistak">Pakistan</option>
+            <option value="Russia">Russia</option>
+            
+        </select>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Address Street</legend>
+        <label for="city">City</label>
+        <input type="text" id="city">
+
+        <label for="state">State</label>
+        <input type="text" id="state">
+
+        <label for="zip">Zip</label>
+        <input type="text" id="zip">
+  
+    </fieldset>
+
+    <fieldset>
+        <legend>Other Information</legend>
+        <label for="comments"> Comments</label>
+        <textarea id="comments" name="comments" cols="60" rows="3"></textarea>
+        <label for="agree">I agre to the terms of service </label>
+        <input type="checkbox" id="agree" name="agree">
+    </fieldset>
+    <input type="submit" value="Submit">
+   </form>
+
+</body>
+</html>
